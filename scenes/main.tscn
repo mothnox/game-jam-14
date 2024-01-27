@@ -17,12 +17,12 @@
 [ext_resource type="Texture2D" uid="uid://dgfvrh8yg3sch" path="res://assets/Mini FX, Items & UI/Coin-Sprites/00_Coin-Sprites.png" id="13_0e2yw"]
 [ext_resource type="Script" path="res://scripts/hud_manager.gd" id="13_wnah2"]
 [ext_resource type="PackedScene" uid="uid://dt7t8e5rl5w6n" path="res://prefabs/gem_game_start.tscn" id="14_0dhds"]
-[ext_resource type="Texture2D" uid="uid://bkh3fxkpmxjnr" path="res://assets/main-character/Jump (32x32).png" id="14_b57u7"]
 [ext_resource type="Script" path="res://scripts/gem_game_start.gd" id="15_2wh1i"]
 [ext_resource type="PackedScene" uid="uid://dn8xavai03itc" path="res://prefabs/water_pipe.tscn" id="16_fhblx"]
 [ext_resource type="Texture2D" uid="uid://mu6eigj54f0g" path="res://assets/woodenSign.png" id="21_ddeel"]
 [ext_resource type="PackedScene" uid="uid://b1wnmbjfjj454" path="res://prefabs/seagull_patrol.tscn" id="22_lajx0"]
 [ext_resource type="Texture2D" uid="uid://ce6nh04ruxr3p" path="res://assets/woodenSign2.png" id="22_wpi2u"]
+[ext_resource type="Texture2D" uid="uid://cf8rf7g0ejyax" path="res://assets/main-character/player_icon.png" id="23_rrack"]
 [ext_resource type="PackedScene" uid="uid://qstbd14m2rdb" path="res://prefabs/break_box.tscn" id="25_1qwcf"]
 [ext_resource type="PackedScene" uid="uid://dln5k6816jn7g" path="res://prefabs/pause_menu.tscn" id="26_odwfq"]
 [ext_resource type="PackedScene" uid="uid://b0bj06hlw77p2" path="res://prefabs/score.tscn" id="27_57rya"]
@@ -1095,7 +1095,7 @@ custom_minimum_size = Vector2(32, 32)
 layout_mode = 2
 size_flags_horizontal = 0
 size_flags_vertical = 8
-texture = ExtResource("14_b57u7")
+texture = ExtResource("23_rrack")
 
 [node name="life_counter" type="Label" parent="HUD/control/container/life_container"]
 layout_mode = 2
